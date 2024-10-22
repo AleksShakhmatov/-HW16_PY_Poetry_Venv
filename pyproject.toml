@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tests"
+version = "0.1.0"
+description = ""
+authors = ["AleksSh <Coluchy@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selene = "^1.0.2"
+pytest = "^8.3.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
