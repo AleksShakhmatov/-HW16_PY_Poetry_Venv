@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "tests"
+name = "hw16-py-poetry-venv"
 version = "0.1.0"
 description = ""
 authors = ["AleksSh <Coluchy@yandex.ru>"]
@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-selene = "^1.0.2"
+selene = "2.0.0rc9"
 pytest = "^8.3.3"
 
 
